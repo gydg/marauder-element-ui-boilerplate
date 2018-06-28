@@ -1,0 +1,32 @@
+{
+  "name": "marauder-element-ui-boilerplate",
+  "version": "0.1.0",
+  "description": "element ui marauder template",
+  "author": {
+    "name": "guangyu",
+    "email": "guangyu9@staff.sina.com.cn"
+  },
+  "repository": {
+    "url": "ssh://git@gitlab.weibo.cn:2222/guangyu9/marauder-element-ui-boilerplate.git",
+    "type": "git"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "marax dev",
+    "build": "yarn && marax build",
+    "dll": "marax dll",
+    "escheck": "es-check es5 dist/index/static/js/index.min.js"
+  },
+  "dependencies": {
+    "element-ui": "^2.4.2",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "webpack-marauder": "^1.10.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "license": "MIT"
+}
